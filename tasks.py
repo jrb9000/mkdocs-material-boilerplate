@@ -8,7 +8,7 @@ def open_browser(addr):
     """
     Open browser
     """
-    url = "http://" + addr
+    url = f"http://{addr}"
     while True:
         sleep(0.1)
         try:
